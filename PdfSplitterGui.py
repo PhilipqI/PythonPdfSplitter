@@ -47,7 +47,7 @@ class Ui_Dialog(object):
 
     def retranslateUi(self, Dialog):
         _translate = QtCore.QCoreApplication.translate
-        Dialog.setWindowTitle(_translate("Dialog", "Dialog"))
+        Dialog.setWindowTitle(_translate("PDF Splitter", "PDF Splitter"))
         self.loadFile.setText(_translate("Dialog", "Load file"))
 
     # own functions
